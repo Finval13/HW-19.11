@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Комментарі</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <section id="comments"></section>
+
+      <form id="commentForm">
+        <label for="userName">Ім'я користувача:</label>
+        <input type="text" id="userName" required />
+
+        <label for="commentText">Текст коментаря:</label>
+        <textarea id="commentText" rows="4" required></textarea>
+
+        <button type="button" onclick="addComment()">Додати коментар</button>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
